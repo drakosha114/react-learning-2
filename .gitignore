@@ -1,1 +1,7 @@
 
+.idea/REACT_TEST_app-2-webpack.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+node_modules/
+public/

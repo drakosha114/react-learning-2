@@ -1,0 +1,57 @@
+.notes__editor {
+    width: 100%;
+    max-width: 600px;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+}
+.notes__inputTitle,
+.notes__inputText {
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+}
+.notes__inputTitle {
+    width: 100%;
+    margin: 5px;
+    font-size: 14px;
+}
+.notes__inputText {
+    width: 100%;
+    resize: none;
+    margin: 5px 5px 20px 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.notes__inputTitle:focus,
+.notes__inputText:focus {
+    outline: 0;
+}
+
+.notes__add {
+
+    background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    cursor:pointer;
+    color:#ffffff;
+    font-size: 14px;
+    padding: 8px 8px;
+    text-transform: uppercase;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+.notes__add:hover {
+    background-color:#5cbf2a;
+}
+
+.notes__add:active {
+    position:relative;
+    top:1px;
+}
+
+.notes__add:focus {
+    outline: 0;
+}

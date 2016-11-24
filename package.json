@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "autoprefixer-loader": "*",
-    "babel": "*",
-    "babel-loader": "*",
+    "babel": "5.x",
+    "babel-loader": "5.*",
     "css-loader": "^0.22.0",
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
